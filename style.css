@@ -55,10 +55,25 @@
     margin-top: 4.5em !important;
 }
 
-.btn{
+.btn1{
     width: 100%;
     background-color: #0d41af !important;
     color: #fff !important;
+}
+
+/* css formulario y modal */
+
+.marginCard1{
+    margin-top: 4.5em !important;
+}
+
+.btn2{
+    background-color: #0d41af !important;
+    color: #fff !important;
+}
+
+.btn-close{
+    border: 2px solid white !important;
 }
 
 /* Css media query */
@@ -67,6 +82,10 @@
 
     .navbar-toggler {
         border: 2px solid #fff !important;
+    }
+
+    .marginCard1{
+        padding: 0 0.5em !important;
     }
     
 }
