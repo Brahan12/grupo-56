@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.container-xl{
+    padding: 0 !important;
+}
+
+/* Css NavBar */
+
+.container-fluid{
+    font-family: 'Lobster', cursive !important;
+}
+
+.styleAncla{
+    font-size: 1.3em !important;
+}
+
+.styleAncla:hover{
+    color: #fe0066 !important;
+}
+
+.dropdown-menu {
+    border: 2px solid #fff !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover{
+    background-color: #0d41af73 !important;
+    color: black !important;
+}
+
+.dropdown-item:active{
+    background-color: #0d41af73 !important;
+    color: black !important;
+}
+
+.styleBoton:hover{
+    background-color: #fff !important;
+    border: 1px solid #0d41af !important;
+}
+
+/* Css de las Card´s */
+
+.card{
+    padding: 0 !important;
+}
+
+.card-title{
+    color: #fe0066 !important;
+}
+
+.marginCard{
+    margin-top: 4.5em !important;
+}
+
+.btn{
+    width: 100%;
+    background-color: #0d41af !important;
+    color: #fff !important;
+}
+
+/* Css media query */
+
+@media (max-width: 991px) {
+
+    .navbar-toggler {
+        border: 2px solid #fff !important;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .carousel, .carousel-inner, .altoImg{
+        height: 50vh !important;
+    }
+
+    .card{
+        width: 96% !important;
+        margin: auto !important;
+    }
+
+    .card img{
+        height: 50vh !important;
+    }
+    
+}
